@@ -1,1 +1,1 @@
-# mcg
+# MCG - Magic Card Game

@@ -6,7 +6,7 @@
 
 ## Project Files
 To reduce the size of the Unity project files in the repository, only Assets, Packages and ProjectSettings have been added. Any needed files should be there.<br><br>
-YOu might have to copy the files into a Unity project or open the files as a project with Unity version `2021.3.14f1`.
+You might have to copy the files into a Unity project or open the files as a 2D Project with Unity version `2021.3.14f1`.
 
 ## Working Instructions
 You'll have to work in the Windows Command Line.<br><br>

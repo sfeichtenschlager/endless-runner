@@ -8,7 +8,8 @@
 To reduce the size of the Unity project files in the repository, only Assets, Packages and ProjectSettings have been added. Any needed files should be there.
 
 ## Working instructions
-You'll have to work in the Windows Command Line.
-First, clone the repository into a folder using `git clone https://github.com/sfeichtenschlager/endless-runner/`.
-When finished editing the project, use `git add .` to add all files. Then use `git commit -m "Input here what you did"` to commit the files and add information about the edit. At last, use `git push` to save the changes.
+You'll have to work in the Windows Command Line.<br>
+First, clone the repository into a folder using `git clone https://github.com/sfeichtenschlager/endless-runner/`.<br>
+When finished editing the project, use `git add .` to add all files. Then use `git commit -m "Input here what you did"` to commit the files and add information about the edit.<br>
+At last, use `git push` to save the changes.<br>
 Use `git pull` before editing the files again to get the newest version.

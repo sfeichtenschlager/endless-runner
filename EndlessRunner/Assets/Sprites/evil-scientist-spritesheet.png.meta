@@ -1,0 +1,2671 @@
+fileFormatVersion: 2
+guid: 4dfff1161a2db4043b90e7a81494c3aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 575
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d6ee1516d2b74595e0a79145fe0a4
+      internalID: -1196288639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 575
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21ecf96623d840478e6d569328f9202
+      internalID: 187685736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 575
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a893e0ded31ca4294b99a83e858607
+      internalID: -206837882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 575
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd56c73e4e25c848bd6ce30bb0b50f2
+      internalID: 1732903933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 575
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9e8cb6fa0639246b293c07da60b2a8
+      internalID: -695313966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 532
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbba8a7e683daa4f9343a4186a156a1
+      internalID: 1424910315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 532
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3089f70d2f6f66c409bc6597de7f54c0
+      internalID: 1594912032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 532
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93055b67974e4694ebace93d833a4cc2
+      internalID: 1676627346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 532
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd374b7c533f6b44a2886730aae6942
+      internalID: 1148571765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 532
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e3aff8800f53a42a29bd39c4dfc61c
+      internalID: 1750893676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 532
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d6d5abf56fc414a8b1113968828524
+      internalID: -1265083909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 532
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbc63dd73d5254479374b933094741c
+      internalID: 2057067294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 532
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badbb1065ff16d14eb31eb5a09420f6a
+      internalID: 1568245292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 532
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afedd260239d9c4eb88776c2b71a687
+      internalID: 1561010969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 532
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2114f7637d7db714a872df5e2a384b95
+      internalID: -2123474731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 480
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b8d7a4450df294ea271155f07fda5b
+      internalID: -1136952932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 480
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f4bb101c936fe4bba3cc02a933ffdd
+      internalID: 88700497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 480
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e984740e85c2f4da9f3f43526a4049
+      internalID: 684937904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 480
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbf50e5298176942a0d6de08ba4e0bb
+      internalID: 1895459323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 480
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150acbd7efa707f4bae5a66e73f272d0
+      internalID: 1926326539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 480
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b3517590325d42b3ded47bc380a7c
+      internalID: -721385185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 434
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659e00e75e35a564f95c72e46a39f6ac
+      internalID: 255842374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 434
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14247126414b9c4b9803d8e4fde7bb7
+      internalID: 375859435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 434
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a70bd4d7ad153429021c3f4ca83b06
+      internalID: 156738908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 434
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a78181b417e6ad4eb00a885bdb57bb5
+      internalID: -245873490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 434
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a327d860027a74f87da21480a31804
+      internalID: 661552978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 386
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603bb5388868893408695d06d2148cf8
+      internalID: -2127698405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 386
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde08207c2adb6a43aa7a251bd59aff9
+      internalID: 176280273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 386
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203d06f5fd53c3e4981d2f389ac4100b
+      internalID: -1279155775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 386
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581abf9365358d34b81385fc3c7bfb48
+      internalID: 1354773603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 386
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5720dadf7120a4c9181b1d6574c3bd
+      internalID: -1220180948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 386
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7023bee75bac5384db4e74f9fd93c9cf
+      internalID: -1061552272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 386
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048b199460c47494289532aa8ad6c996
+      internalID: 819594548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 386
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b172f19ab61b92419dcc4176a239b85
+      internalID: -580117636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 386
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d2aea99b48f6b45875ba5121c9a765
+      internalID: 1530147479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 386
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3b87c8502099e47b22473b93cc977a
+      internalID: -1822746948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 343
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d589eb9e0da2542953e2cb780119ac
+      internalID: -1116659263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 343
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882406d81eec13947a50d79a859efbbd
+      internalID: -834080654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 343
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702231fa8463277449aae7ecb87e2a9c
+      internalID: 1280971532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 343
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a544a4da059fea14da72bbb4852fce00
+      internalID: -265550893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 343
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d710cf9818aa4cb469e34e5943b615ff
+      internalID: -295223262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 343
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8477f2a4477072244bf7834deff124b8
+      internalID: -162785466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 343
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761cce9cfcf43114eb11cbdc02c6f86c
+      internalID: 638588594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 343
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3558392fbfb4cf409517622c044f1d2
+      internalID: 2134381162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 343
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a816eb33908838e4fa88eda5ac1163e2
+      internalID: 670978538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 343
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdae652535546d143bbbc5f5a5ecd9b8
+      internalID: 546018297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 343
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccdd15e3d745b44e8fd5041cc065eb0
+      internalID: 824445730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 300
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85452915a8af169418863c55e7de2875
+      internalID: 531144369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 300
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2978fc7df2f21e43aebad4f2cff846e
+      internalID: -932042274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 250
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907e501e58b840e40b76763a1de936ea
+      internalID: -110310959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 250
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf296bd8c8d88b64d92dab59119717a3
+      internalID: 637146536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 250
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f734180c8814c40a24df2f0b9e6ce7
+      internalID: 619242716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 250
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7394ed591bb43034d9e3491a6655c7bb
+      internalID: 723061637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 250
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3620ade5c8d71924d9cde7236771a927
+      internalID: -1767041508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 250
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb78c14457c9344ca83c43d1c540cb1
+      internalID: 1665297591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 250
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bf385374350bd459b86f1ca9cf2dda
+      internalID: -1023370142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 250
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6126676ec34544fa4abbfcd653609d
+      internalID: -879316362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 250
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d90f15659396c942b277a48ad18b34b
+      internalID: -330643827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 250
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a03b749bdbc9734bb756a1c52c83f92
+      internalID: 1794254737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 250
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39801ab1884560147b0bcf1c60d37529
+      internalID: -357099150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 250
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1092c2e03393bd04da2d34f112cf8b45
+      internalID: -1034105810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 206
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf619b946712bd4d939218954c66431
+      internalID: -1015640894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 206
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8890688eb71071540b66bd6883a0a848
+      internalID: -1243245789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 206
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0263ec6917e3eb4da52eeac2405ffb1
+      internalID: 1740609787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 162
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6fabdf814fbbc45a69978ed6a1cfb8
+      internalID: -925385776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 162
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2a860846f683f49926a48c99bf537c
+      internalID: 598737385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 162
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b099b12ddf9d294db4b71c78bf279a0
+      internalID: -1810909159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 162
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f26469393a9b2478ffe5dcb0c29c37
+      internalID: -228106475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 162
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1276efbd4797c634b82c298a664d182c
+      internalID: -477908144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 162
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff79f332ca14954e8743801a786bebc
+      internalID: -875000403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 118
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dca4549de28724faab63bb2608a6b4
+      internalID: -1599453951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 74
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5e84c064edbf4398ff432a0ddfc42
+      internalID: -558000087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 74
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc7351810a116e418bf5df983a880d2
+      internalID: 1047237772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 74
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c4e02ab8fb4894b9283770ee5d6adb
+      internalID: -288100109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 74
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e070f013fb8f145a541f1928f4abb5
+      internalID: -941386725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 43
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19e0e6ebf6ddd445bb754f8bead62c9
+      internalID: -1658669006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 43
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4208160fd74164291f0cf539f19572
+      internalID: 1307545227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 43
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e40916ec6c30e46bc3f52b3d79f0c5
+      internalID: -908530145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 43
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aa59038d5d8d246aca9132471f6bbb
+      internalID: 7056243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 17
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a71b6863b8854baade349602cd7f4
+      internalID: -1294511025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 27
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7468b7dcf53a547937efc05da1acb4
+      internalID: 688430912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 17
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1306b649d31ec6744a10014246c4168a
+      internalID: -756043408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 18
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c312504f7f504fbd67c9a559af7b7
+      internalID: 447588301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 18
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b06254025a79c84491bdc75e16ce388
+      internalID: 1060061005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 18
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc5cdf03d9dcf94db751a2c7913750a
+      internalID: 1555386300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 18
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e4e73d840df7847a7399b73ddc0ffa
+      internalID: 1176401653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 43
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e532a9b4cae63c47bc338df1725f284
+      internalID: -286192159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0592bd7cd9a3fb4597a0d89ebf82d41
+      internalID: -1826837521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0795d04f27fae394ca1bdc5b42b9dec3
+      internalID: 534094298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 14
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25df5610b9d594e874eaa5489f925f
+      internalID: 1943899551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 14
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d81b4c2448fe9479e75c85338ab0c2
+      internalID: 960297787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 15
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c07060a946e24429e211c50030032c
+      internalID: 1037084051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 43
+        width: 42
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe91fb010bfcd141adcc4d5c57892dc
+      internalID: -1844512824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 43
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a3692d87e3e1448b478b52ddac673
+      internalID: -630837974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 43
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aca01e75dc15c4f9392cac2e84ab1a
+      internalID: 1295260365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 74
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc92cc883255503479a8f1384c9543ef
+      internalID: -912999216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 74
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0fa6652fc84fc42ba9ad78310897da
+      internalID: 1729533282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 74
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72361fe28e3bb2a4190c6d3c89ee3105
+      internalID: 1695398838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 74
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e03782da6fb1c047a51f742569d85ae
+      internalID: 1310670760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 74
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ece222ef5f914419e54155a584fc96
+      internalID: 1909384056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 74
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bf0bcf7f3869b498730ed074aaee63
+      internalID: -690042013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 118
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ff19e99c66b364b81a742aeea8e0ab
+      internalID: -830352641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 118
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e414827b8c56d1409cd392932bb3e66
+      internalID: 684439966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 118
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9cdf682d9be1348a8129fdd96bf79d
+      internalID: 89501314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 118
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c6b3ddeaa1d544185f13a3f3c6d427
+      internalID: 1897841569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 118
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f3e08aa8a61d4882fb53e604516a3
+      internalID: -402523907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 118
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e1df9ad97cb22419c08abef7ea205c
+      internalID: -1248287091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 118
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e372661f2afce646a73e3ede1224019
+      internalID: -942537180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 118
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748a390cea1f11349bb07315bb089334
+      internalID: -190110509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 162
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402531b2a2aacf14fb3d12fa8929f8ad
+      internalID: 1104682493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 162
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f85177839e96f8468266b7ac29e9cf4
+      internalID: 1272532619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 162
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee228bbb4da39db48bd5bb2129fb5693
+      internalID: 1057481832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 162
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd56e005a88b6f45910f265522ada16
+      internalID: -1577559265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evil-scientist-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 386
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e200401d7b2f9f341a0b6c812551bfe9
+      internalID: -1822581874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      evil-scientist-spritesheet_92: -2133135755
+      evil-scientist-spritesheet_8: 1148571765
+      evil-scientist-spritesheet_72: 1272532619
+      evil-scientist-spritesheet_88: 1974893436
+      evil-scientist-spritesheet_110: -902038967
+      evil-scientist-spritesheet_30: -1220180948
+      evil-scientist-spritesheet_95: -1390918086
+      evil-scientist-spritesheet_48: 824445730
+      evil-scientist-spritesheet_46: 670978538
+      evil-scientist-spritesheet_44: 638588594
+      evil-scientist-spritesheet_42: -295223262
+      evil-scientist-spritesheet_126: -1879223141
+      evil-scientist-spritesheet_17: 684937904
+      evil-scientist-spritesheet_127: 960297787
+      evil-scientist-spritesheet_85: -1248287091
+      evil-scientist-spritesheet_96: -1599453951
+      evil-scientist-spritesheet_38: -1116659263
+      evil-scientist-spritesheet_104: 1310670760
+      evil-scientist-spritesheet_102: 1729533282
+      evil-scientist-spritesheet_43: -162785466
+      evil-scientist-spritesheet_118: 232731958
+      evil-scientist-spritesheet_51: -110310959
+      evil-scientist-spritesheet_67: 598737385
+      evil-scientist-spritesheet_5: 1424910315
+      evil-scientist-spritesheet_135: 221091549
+      evil-scientist-spritesheet_80: -830352641
+      evil-scientist-spritesheet_109: 1188174305
+      evil-scientist-spritesheet_69: -228106475
+      evil-scientist-spritesheet_103: 1695398838
+      evil-scientist-spritesheet_119: -1658669006
+      evil-scientist-spritesheet_124: -1294511025
+      evil-scientist-spritesheet_98: 1047237772
+      evil-scientist-spritesheet_60: 1794254737
+      evil-scientist-spritesheet_129: 304141748
+      evil-scientist-spritesheet_24: -245873490
+      evil-scientist-spritesheet_108: 1261923562
+      evil-scientist-spritesheet_139: 1176401653
+      evil-scientist-spritesheet_128: 1331602658
+      evil-scientist-spritesheet_111: 1868995012
+      evil-scientist-spritesheet_58: -879316362
+      evil-scientist-spritesheet_65: 1740609787
+      evil-scientist-spritesheet_2: -206837882
+      evil-scientist-spritesheet_28: -1279155775
+      evil-scientist-spritesheet_121: 1307545227
+      evil-scientist-spritesheet_133: -756043408
+      evil-scientist-spritesheet_19: 1926326539
+      evil-scientist-spritesheet_49: 531144369
+      evil-scientist-spritesheet_39: -834080654
+      evil-scientist-spritesheet_15: -1136952932
+      evil-scientist-spritesheet_47: 546018297
+      evil-scientist-spritesheet_57: -1023370142
+      evil-scientist-spritesheet_4: -695313966
+      evil-scientist-spritesheet_27: 176280273
+      evil-scientist-spritesheet_55: -1767041508
+      evil-scientist-spritesheet_54: 723061637
+      evil-scientist-spritesheet_123: 7056243
+      evil-scientist-spritesheet_36: -1822581874
+      evil-scientist-spritesheet_99: -288100109
+      evil-scientist-spritesheet_6: 1594912032
+      evil-scientist-spritesheet_83: 1897841569
+      evil-scientist-spritesheet_22: 375859435
+      evil-scientist-spritesheet_45: 2134381162
+      evil-scientist-spritesheet_3: 1732903933
+      evil-scientist-spritesheet_61: -357099150
+      evil-scientist-spritesheet_41: -265550893
+      evil-scientist-spritesheet_53: 619242716
+      evil-scientist-spritesheet_29: 1354773603
+      evil-scientist-spritesheet_112: -329104832
+      evil-scientist-spritesheet_32: 819594548
+      evil-scientist-spritesheet_18: 1895459323
+      evil-scientist-spritesheet_25: 661552978
+      evil-scientist-spritesheet_37: -612576482
+      evil-scientist-spritesheet_64: -1243245789
+      evil-scientist-spritesheet_87: -190110509
+      evil-scientist-spritesheet_11: 2057067294
+      evil-scientist-spritesheet_66: -925385776
+      evil-scientist-spritesheet_107: -932934804
+      evil-scientist-spritesheet_97: -558000087
+      evil-scientist-spritesheet_78: -904681575
+      evil-scientist-spritesheet_73: -875000403
+      evil-scientist-spritesheet_20: -721385185
+      evil-scientist-spritesheet_35: -1822746948
+      evil-scientist-spritesheet_82: 89501314
+      evil-scientist-spritesheet_84: -402523907
+      evil-scientist-spritesheet_34: 1530147479
+      evil-scientist-spritesheet_136: 447588301
+      evil-scientist-spritesheet_122: -908530145
+      evil-scientist-spritesheet_140: -1826837521
+      evil-scientist-spritesheet_101: -912999216
+      evil-scientist-spritesheet_138: 1555386300
+      evil-scientist-spritesheet_21: 255842374
+      evil-scientist-spritesheet_106: -690042013
+      evil-scientist-spritesheet_94: 821811357
+      evil-scientist-spritesheet_116: 1907610836
+      evil-scientist-spritesheet_7: 1676627346
+      evil-scientist-spritesheet_56: 1665297591
+      evil-scientist-spritesheet_31: -1061552272
+      evil-scientist-spritesheet_59: -330643827
+      evil-scientist-spritesheet_75: -1577559265
+      evil-scientist-spritesheet_132: 688430912
+      evil-scientist-spritesheet_0: -1196288639
+      evil-scientist-spritesheet_40: 1280971532
+      evil-scientist-spritesheet_52: 637146536
+      evil-scientist-spritesheet_93: -2037217346
+      evil-scientist-spritesheet_23: 156738908
+      evil-scientist-spritesheet_13: 1561010969
+      evil-scientist-spritesheet_62: -1034105810
+      evil-scientist-spritesheet_76: 591745859
+      evil-scientist-spritesheet_63: -1015640894
+      evil-scientist-spritesheet_68: -1810909159
+      evil-scientist-spritesheet_50: -932042274
+      evil-scientist-spritesheet_141: 534094298
+      evil-scientist-spritesheet_14: -2123474731
+      evil-scientist-spritesheet_9: 1750893676
+      evil-scientist-spritesheet_113: 1295260365
+      evil-scientist-spritesheet_125: 1037084051
+      evil-scientist-spritesheet_131: 2017544634
+      evil-scientist-spritesheet_16: 88700497
+      evil-scientist-spritesheet_91: -1749554976
+      evil-scientist-spritesheet_120: -286192159
+      evil-scientist-spritesheet_79: -500127764
+      evil-scientist-spritesheet_71: 1104682493
+      evil-scientist-spritesheet_26: -2127698405
+      evil-scientist-spritesheet_90: 1818260445
+      evil-scientist-spritesheet_70: -477908144
+      evil-scientist-spritesheet_1: 187685736
+      evil-scientist-spritesheet_100: -941386725
+      evil-scientist-spritesheet_77: -1596453951
+      evil-scientist-spritesheet_117: -1844512824
+      evil-scientist-spritesheet_74: 1057481832
+      evil-scientist-spritesheet_134: -187344581
+      evil-scientist-spritesheet_115: -630837974
+      evil-scientist-spritesheet_89: 113042823
+      evil-scientist-spritesheet_33: -580117636
+      evil-scientist-spritesheet_137: 1060061005
+      evil-scientist-spritesheet_105: 1909384056
+      evil-scientist-spritesheet_10: -1265083909
+      evil-scientist-spritesheet_86: -942537180
+      evil-scientist-spritesheet_114: -87514266
+      evil-scientist-spritesheet_130: 1943899551
+      evil-scientist-spritesheet_12: 1568245292
+      evil-scientist-spritesheet_81: 684439966
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

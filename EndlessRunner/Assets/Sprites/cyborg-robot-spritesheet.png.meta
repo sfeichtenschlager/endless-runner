@@ -1,0 +1,1763 @@
+fileFormatVersion: 2
+guid: 24d22d45428e227439372fe806d2cc21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1020
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876c2db2b739b2243b505f85edba7efd
+      internalID: 938263162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1020
+        width: 35
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab9baff7d7c00c4ebfe398c7722f5a3
+      internalID: -1472872145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1020
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1d6a3097553174bb30b29cd2194246
+      internalID: -76221501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1019
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3afb7191a64884c89110b37bfcea98
+      internalID: 1547455843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1020
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87af9bacff4f44747a0444dff705467d
+      internalID: -558307437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 921
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e31fabd9316fcf41842851f23464310
+      internalID: 509218099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 923
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0daa911cc800d148ab356bab7e74288
+      internalID: -2045513559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 921
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813ea76bd26bed145a039a9ffaa808d4
+      internalID: -717971445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 920
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648a6ed8fc393d14b865f1ea2adefb61
+      internalID: 1457802284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 921
+        width: 31
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143f561a88a0ee046af4926bd2da3341
+      internalID: -1263415082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 922
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7c9a3a5abb2340958a542afd5906c
+      internalID: 1093535398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 920
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba653a45759add4c956d25a754761c7
+      internalID: -1334141787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 818
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30487aa7ea76e2c4fbb6eeb46c7daffc
+      internalID: 400741892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 819
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6bcae2d39904f46a4b5a7fe515d15a
+      internalID: -2146057662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 818
+        width: 34
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f09415eadfcd54dbcdd6cc4e3fd410
+      internalID: 1439263423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 817
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0a8ffdae2eac647a367a8f639f7653
+      internalID: 1186835053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 817
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8c31d13a61927428d9216e8cd3a6fe
+      internalID: 51289337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 815
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c099233885fe5944088626236d9894f5
+      internalID: 1147985714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 815
+        width: 41
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25462c282bf705549b01c3acf3492d94
+      internalID: 1233426610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 816
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b961524618b36a0479277f58a37313ba
+      internalID: -1895189465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 726
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed693cf771bc30c44823b4943cfc6a02
+      internalID: 1993749766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 727
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3decbe84e4da08144a85e781e63a496e
+      internalID: -1468687389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 731
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae26dbb66c68b374ba2a8e5f17abb474
+      internalID: 1205240194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 730
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab584e6fb703974e8b73a6b8b022b9e
+      internalID: 1623849090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 729
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07a7f2787193554da168091bf4b322f
+      internalID: -680562549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 733
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b0790071301674daa2673caed1c2af
+      internalID: -1304175516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 638
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63a8611c188ca74581db325329cde1f
+      internalID: -309071607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 640
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea7721d2d68e5d488ef378b4f0dff72
+      internalID: 177764137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 639
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb7376f07593b4ebb1fa052e77a0ca
+      internalID: -1774418968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 640
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9332bdbd651fa74887bacea460727a3
+      internalID: 659319416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 639
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b244addca5ae4aa2c22ca2c81962f
+      internalID: 1286287280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 640
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8eadb19bdfe2e44a7fe2187d06338f
+      internalID: -309696410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 548
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c96c4525eefca7429b22979b9b61a5e
+      internalID: -2070866024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 548
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83daf56951ea1ae4087245c6fd134a14
+      internalID: 1347201546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 548
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962486921080e2a4687691ca87719cc2
+      internalID: -1099161054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 548
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebc90239718480478a7b9941969b74c
+      internalID: 656816799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 548
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe84ab1b404a1b4a89544ddbbaad943
+      internalID: -1599747847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 456
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62979f0105604d342980f45bf1c2940c
+      internalID: -1071236165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 457
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acd8f9dc73dc054f813f4d6a25faaba
+      internalID: 1642613613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 457
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88a76586229eb44bf4c337da1aab81
+      internalID: -736767893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 458
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a6ae455ce1b214a8552b6e472257e5
+      internalID: -278634688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 458
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cb5ecaf9f56fd4d8a008f887f020f4
+      internalID: 1465005481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 457
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761e07c6eaacc274780c8d826136914d
+      internalID: 342809352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 358
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7d2bea2bdc08e4db8aeb8dafcceebf
+      internalID: 1165871822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 359
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54164644289b914e950c39aff3be5b2
+      internalID: -1288827937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 359
+        width: 36
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ad670db43eb94408839c40f47c5fb9
+      internalID: -1795529761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 361
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5a29798878b44458f113b211cc7ce5
+      internalID: 747619441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 361
+        width: 36
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5f547437c3b17409e16fb00cccddbb
+      internalID: 691731834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 362
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c9d5cc563437f4db0db00aa666282f
+      internalID: 1315735677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 256
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb63fb0b4847c4a418f4970904a369d4
+      internalID: 1915752511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 256
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7862d8c14d379f141991604e154dd8ba
+      internalID: 2016398203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 257
+        width: 35
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a644c26790984ca6adccb7d139080
+      internalID: 135384127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 256
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809bc46d3631fd84e8bc611591f77f3d
+      internalID: -1030850796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 256
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b57ea956fb28346bfbd566c6ea19bd
+      internalID: -445863665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 258
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b37252dd21a4f40bd990d441316518
+      internalID: 1209860064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 259
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153503e3f9e9f914f8c9a1e6369f5629
+      internalID: 1305589106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 260
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8a2ec3dd877424eb8c0232542effb3
+      internalID: -562690638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 259
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccb04885da2f2b4cb4a7ef4ed18762d
+      internalID: 1974028031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 141
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c2a68bfd53b6a4ea4d0d96608711d4
+      internalID: 322188357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 142
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aefe59401e3dd429dd50e11f31217e
+      internalID: -1691027285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 141
+        width: 35
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa1a7910e1b09a44a8a209559966839
+      internalID: -1308467898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 139
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68616208c0cd2c44a8c5de5abf059ea
+      internalID: 155817972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 133
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b55c2f5297c964a8780ded41fbb2fe
+      internalID: 646904466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 141
+        width: 42
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9a6cd2c345dd14c8629ffc277e0c19
+      internalID: -607922507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 141
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead2efa55aa5dc24dacc612fff463906
+      internalID: 1057487181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 141
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d44f61b970b19b4fb37b75a116dd87e
+      internalID: 553768731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 143
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2845baf3a2f561240bde37c4d809be70
+      internalID: -1952227635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3035df1e4ad1fb549ae05806566742d6
+      internalID: 1178998739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 18
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f1a5363039f95438556c200dce77ca
+      internalID: 1378146334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 13
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b07579c008f67143bc2232d60128686
+      internalID: -1019365381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 11
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e9996319341db48825ac031afce15a
+      internalID: 2044540113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 15
+        width: 42
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71cfedc9210ef044b2eb6e54a715bb0
+      internalID: 1186217606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 13
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6385d0e7070f5704280793810bbb27ec
+      internalID: 1483164628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyborg-robot-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 15
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517621e326ca6a34d990113ee30293f4
+      internalID: 1158862076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cyborg-robot-spritesheet_44: -1288827937
+      cyborg-robot-spritesheet_5: 509218099
+      cyborg-robot-spritesheet_35: 656816799
+      cyborg-robot-spritesheet_22: 1205240194
+      cyborg-robot-spritesheet_37: -1071236165
+      cyborg-robot-spritesheet_52: -1030850796
+      cyborg-robot-spritesheet_46: 747619441
+      cyborg-robot-spritesheet_64: 1057487181
+      cyborg-robot-spritesheet_32: -2070866024
+      cyborg-robot-spritesheet_40: -278634688
+      cyborg-robot-spritesheet_61: 155817972
+      cyborg-robot-spritesheet_1: -1472872145
+      cyborg-robot-spritesheet_57: 1974028031
+      cyborg-robot-spritesheet_69: -1019365381
+      cyborg-robot-spritesheet_62: 646904466
+      cyborg-robot-spritesheet_66: -1952227635
+      cyborg-robot-spritesheet_16: 51289337
+      cyborg-robot-spritesheet_28: -1774418968
+      cyborg-robot-spritesheet_19: -1895189465
+      cyborg-robot-spritesheet_59: -1691027285
+      cyborg-robot-spritesheet_50: 2016398203
+      cyborg-robot-spritesheet_36: -1599747847
+      cyborg-robot-spritesheet_42: 342809352
+      cyborg-robot-spritesheet_60: -1308467898
+      cyborg-robot-spritesheet_0: 938263162
+      cyborg-robot-spritesheet_65: 553768731
+      cyborg-robot-spritesheet_55: 1305589106
+      cyborg-robot-spritesheet_72: 1483164628
+      cyborg-robot-spritesheet_47: 691731834
+      cyborg-robot-spritesheet_7: -717971445
+      cyborg-robot-spritesheet_33: 1347201546
+      cyborg-robot-spritesheet_26: -309071607
+      cyborg-robot-spritesheet_6: -2045513559
+      cyborg-robot-spritesheet_58: 322188357
+      cyborg-robot-spritesheet_18: 1233426610
+      cyborg-robot-spritesheet_25: -1304175516
+      cyborg-robot-spritesheet_49: 1915752511
+      cyborg-robot-spritesheet_23: 1623849090
+      cyborg-robot-spritesheet_21: -1468687389
+      cyborg-robot-spritesheet_48: 1315735677
+      cyborg-robot-spritesheet_9: -1263415082
+      cyborg-robot-spritesheet_29: 659319416
+      cyborg-robot-spritesheet_56: -562690638
+      cyborg-robot-spritesheet_24: -680562549
+      cyborg-robot-spritesheet_63: -607922507
+      cyborg-robot-spritesheet_3: 1547455843
+      cyborg-robot-spritesheet_67: 1178998739
+      cyborg-robot-spritesheet_43: 1165871822
+      cyborg-robot-spritesheet_4: -558307437
+      cyborg-robot-spritesheet_30: 1286287280
+      cyborg-robot-spritesheet_70: 2044540113
+      cyborg-robot-spritesheet_10: 1093535398
+      cyborg-robot-spritesheet_73: 1158862076
+      cyborg-robot-spritesheet_2: -76221501
+      cyborg-robot-spritesheet_31: -309696410
+      cyborg-robot-spritesheet_34: -1099161054
+      cyborg-robot-spritesheet_13: -2146057662
+      cyborg-robot-spritesheet_38: 1642613613
+      cyborg-robot-spritesheet_51: 135384127
+      cyborg-robot-spritesheet_39: -736767893
+      cyborg-robot-spritesheet_41: 1465005481
+      cyborg-robot-spritesheet_27: 177764137
+      cyborg-robot-spritesheet_45: -1795529761
+      cyborg-robot-spritesheet_68: 1378146334
+      cyborg-robot-spritesheet_12: 400741892
+      cyborg-robot-spritesheet_53: -445863665
+      cyborg-robot-spritesheet_11: -1334141787
+      cyborg-robot-spritesheet_14: 1439263423
+      cyborg-robot-spritesheet_15: 1186835053
+      cyborg-robot-spritesheet_17: 1147985714
+      cyborg-robot-spritesheet_8: 1457802284
+      cyborg-robot-spritesheet_71: 1186217606
+      cyborg-robot-spritesheet_20: 1993749766
+      cyborg-robot-spritesheet_54: 1209860064
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

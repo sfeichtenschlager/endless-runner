@@ -68,17 +68,18 @@ public class LevelGenerator : MonoBehaviour
     // add new level parts here
     [SerializeField] private Transform levelPart_1;
     [SerializeField] private Transform levelPart_2;
+    [SerializeField] private Transform levelPart_3;
 
     // lengths of parts should be their grid length + 2 (for space in between)
-    private int[] lengthArray = new int[] {17, 12};
+    private int[] lengthArray = new int[] {17, 12, 22};
 
-    private int arrayLength = 2;        // length of array above
+    private int arrayLength = 3;        // length of array above
     private int rIndex;                 // randomly generated index
     private int current_posX = 0;       // current generation position
 
     void Awake() {
         // list that contains all levelParts initialized at the beginning
-        List<Transform> allLevelParts = new List<Transform> {levelPart_1, levelPart_2};
+        List<Transform> allLevelParts = new List<Transform> {levelPart_1, levelPart_2, levelPart_3};
 
         // this line is used to make sure the player doesn't fall on spawn
         SpawnLevelPart(allLevelParts[0]);

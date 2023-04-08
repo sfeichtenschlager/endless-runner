@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     public bool facingRight = true;
     private bool isgrounded = false;
 
+    public GameObject panel;
+
     private Vector3 rot;
     // Start is called before the first frame update
     void Start()
@@ -44,6 +46,9 @@ public class PlayerMovement : MonoBehaviour
         } 
         
         animator.SetBool("IsGrounded", isgrounded);
+
+        //aus der Map fallen 
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -51,6 +56,14 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "ground")
         {
             isgrounded = true;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (collision.gameObject.tag == "spike")
+        {
+            panel.setActive(true);
+            Destroy(gameObject);
         }
     }
 

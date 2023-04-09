@@ -58,11 +58,11 @@ public class PlayerMovement : MonoBehaviour
             isgrounded = true;
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "spike")
         {
-            panel.setActive(true);
+            panel.SetActive(true);
             Destroy(gameObject);
         }
     }

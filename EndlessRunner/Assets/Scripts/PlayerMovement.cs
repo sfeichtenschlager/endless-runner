@@ -25,6 +25,8 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(rb.position.y <= -5) Destroy(this);
+
         float richtung = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * speed * richtung * Time.deltaTime);
 

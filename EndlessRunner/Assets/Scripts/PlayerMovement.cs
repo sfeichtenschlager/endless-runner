@@ -52,6 +52,11 @@ public class player : MonoBehaviour
         {
             isgrounded = true;
         }
+
+        if (collision.gameObject.tag == "spike" || collision.gameObject.tag == "laser")
+        {
+            Destroy(this);
+        }
     }
 
     void Flip ()

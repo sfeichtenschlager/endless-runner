@@ -607,6 +607,7 @@ GameObject:
   - component: {fileID: 854744713}
   - component: {fileID: 854744712}
   - component: {fileID: 854744715}
+  - component: {fileID: 854744716}
   m_Layer: 0
   m_Name: giant-laser_0
   m_TagString: laser
@@ -714,6 +715,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!61 &854744716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854744711}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.01515764}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.006515, y: 5}
+    newSize: {x: 10.006515, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.006515, y: 2.119936}
+  m_EdgeRadius: 0
 --- !u!1 &1744375145
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9877c093f010b03429e56145041cd367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPart_1: {fileID: 3843927859867193761, guid: 99a6a8286ace9dd4eab6bcb132f955a9, type: 3}
+  levelPart_1: {fileID: 0}
   levelPart_2: {fileID: 6047941084270755510, guid: 39b9504d93c1fe348a3bfd874aebfb70, type: 3}
   levelPart_3: {fileID: 3070163250347831012, guid: a0a48d5c560f3c7409ae950748b0e4d8, type: 3}
 --- !u!4 &1907123834

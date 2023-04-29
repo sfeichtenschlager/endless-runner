@@ -77,14 +77,19 @@ public class LevelGenerator : MonoBehaviour
     private int rIndex;                 // randomly generated index
     private int current_posX = 0;       // current generation position
 
+    List<Transform> allLevelParts = new List<Transform>{};
+    List<Transform> spawnedLevelParts = new List<Transform>{};
+
     void Awake() {
         // list that contains all levelParts initialized at the beginning
-        List<Transform> allLevelParts = new List<Transform> {levelPart_1, levelPart_2, levelPart_3};
+        allLevelParts.Add(levelPart_1);
+        allLevelParts.Add(levelPart_2);
+        allLevelParts.Add(levelPart_3);
 
         // this line is used to make sure the player doesn't fall on spawn
         SpawnLevelPart(allLevelParts[0]);
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 2; i++)
         {
             // generate new random number for random platform generation
             var random = new System.Random();
@@ -93,9 +98,29 @@ public class LevelGenerator : MonoBehaviour
         }
     }
 
+    private void Update() {
+        Vector3 playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
+        Vector3 laserPos = GameObject.FindGameObjectWithTag("laser").transform.position;
+
+        for (int i = 0; i < spawnedLevelParts.Count; i++) {
+            if (spawnedLevelParts[i].position.x < laserPos.x - 50) {
+                Destroy(spawnedLevelParts[i].gameObject);
+                spawnedLevelParts.RemoveAt(i);
+                i--;
+            }
+        }
+
+        if (playerPos.x > current_posX - 50)
+        {
+            var random = new System.Random();
+            rIndex = (int)Math.Floor(random.NextDouble() * arrayLength);
+            SpawnLevelPart(allLevelParts[rIndex]);
+        }
+    }
+
     private void SpawnLevelPart(Transform currPart) {
         Vector3 spawnPosition = new Vector3(current_posX,0);
-        Instantiate(currPart, spawnPosition, Quaternion.identity);
+        spawnedLevelParts.Add(Instantiate(currPart, spawnPosition, Quaternion.identity));
 
         current_posX = current_posX + lengthArray[rIndex];
     }

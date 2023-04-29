@@ -25,7 +25,7 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(rb.position.y <= -5) Destroy(this);
+        if(rb.position.y <= -5) DestroyPlayer();
 
         float richtung = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * speed * richtung * Time.deltaTime);
@@ -57,7 +57,7 @@ public class player : MonoBehaviour
 
         if (collision.gameObject.tag == "spike" || collision.gameObject.tag == "laser")
         {
-            Destroy(this);
+            DestroyPlayer();
         }
     }
 
@@ -67,6 +67,11 @@ public class player : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    void DestroyPlayer() 
+    {
+        Destroy(this);
     }
 
 }

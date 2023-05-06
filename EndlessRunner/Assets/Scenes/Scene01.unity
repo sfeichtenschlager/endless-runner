@@ -1499,6 +1499,8 @@ MonoBehaviour:
   levelPart_1: {fileID: 1923959079020397093, guid: 99a6a8286ace9dd4eab6bcb132f955a9, type: 3}
   levelPart_2: {fileID: 6047941084270755510, guid: 39b9504d93c1fe348a3bfd874aebfb70, type: 3}
   levelPart_3: {fileID: 3070163250347831012, guid: a0a48d5c560f3c7409ae950748b0e4d8, type: 3}
+  levelPart_4: {fileID: 1415734336109112640, guid: 2e7b9700fd66f3946b018256df1f95f2, type: 3}
+  levelPart_5: {fileID: 158854770261293176, guid: abb70a6e2e3715543bd9b288982aac33, type: 3}
 --- !u!4 &1907123834
 Transform:
   m_ObjectHideFlags: 0

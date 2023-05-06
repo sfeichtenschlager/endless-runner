@@ -72,6 +72,9 @@ public class PlayerMovement : MonoBehaviour
     void DestroyPlayer() 
     {
         Destroy(this);
+
+        GameObject gameUi = GameObject.Find("GameUI");
+        gameUi.GetComponent<ScoreDisplayer>().SaveHighscore();
     }
 
 }

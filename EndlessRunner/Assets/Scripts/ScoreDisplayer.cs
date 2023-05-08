@@ -8,10 +8,14 @@ public class ScoreDisplayer : MonoBehaviour
     public Text score;
     private int currentScore;
     private int calculateScore;
+
+    public Text distance;
+    private string distanceText;
     
     // Start is called before the first frame update
     void Start()
     {
+        distance.text = "< 0";
         score.text = "0";
         currentScore = 0;
     }
@@ -26,6 +30,10 @@ public class ScoreDisplayer : MonoBehaviour
             score.text = calculateScore.ToString();
             currentScore = calculateScore;
         }
+
+        Vector3 laserPos = GameObject.FindGameObjectWithTag("laser").transform.position;
+        distanceText = Mathf.FloorToInt((float) ((playerPos.x - 2) - laserPos.x)).ToString();
+        distance.text = "< " + distanceText;
     }
 
     // check if score is new highscore and save if that is the case

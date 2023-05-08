@@ -1583,8 +1583,14 @@ MonoBehaviour:
   levelPart_3: {fileID: 3070163250347831012, guid: a0a48d5c560f3c7409ae950748b0e4d8, type: 3}
   levelPart_4: {fileID: 1415734336109112640, guid: 2e7b9700fd66f3946b018256df1f95f2, type: 3}
   levelPart_5: {fileID: 158854770261293176, guid: abb70a6e2e3715543bd9b288982aac33, type: 3}
-  levelPart_6: {fileID: 3070163250347831012, guid: ee0e147768d08b8469b5376679048ff2, type: 3}
+  levelPart_6: {fileID: 3070163250347831012, guid: ff45b12c87daa644fa2113f8860c3207, type: 3}
   levelPart_7: {fileID: 1923959079020397093, guid: e9b3ca3159b9858478fe983d257cacf1, type: 3}
+  levelPart_8: {fileID: 1415734336109112640, guid: 75edb373c2f650647838bdc0d7e2264c, type: 3}
+  levelPart_9: {fileID: 6047941084270755510, guid: ae55f8dedb56f164cbe3259baac48997, type: 3}
+  levelPart_10: {fileID: 3070163250347831012, guid: ee0e147768d08b8469b5376679048ff2, type: 3}
+  levelPart_11: {fileID: 3070163250347831012, guid: 971884abb49ce194e89f7c662c3f4c37, type: 3}
+  levelPart_12: {fileID: 158854770261293176, guid: fbea29de55cb82f4981905dce1db3ee6, type: 3}
+  levelPart_13: {fileID: 158854770261293176, guid: 621ef4b81e55b45478acf8e7f6b3f2ee, type: 3}
 --- !u!4 &1907123834
 Transform:
   m_ObjectHideFlags: 0

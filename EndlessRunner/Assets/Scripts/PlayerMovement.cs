@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float horizontalMove = 0f;
     public bool facingRight = true;
     private bool isgrounded = false;
+    private int deathHeight = -10;
 
     private Vector3 rot;
     // Start is called before the first frame update
@@ -25,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(rb.position.y <= -5) DestroyPlayer();
+        if(rb.position.y <= deathHeight) DestroyPlayer();
 
         float direction = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * speed * direction * Time.deltaTime);

@@ -73,11 +73,17 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] private Transform levelPart_5;
     [SerializeField] private Transform levelPart_6;
     [SerializeField] private Transform levelPart_7;
+    [SerializeField] private Transform levelPart_8;
+    [SerializeField] private Transform levelPart_9;
+    [SerializeField] private Transform levelPart_10;
+    [SerializeField] private Transform levelPart_11;
+    [SerializeField] private Transform levelPart_12;
+    [SerializeField] private Transform levelPart_13;
 
     // lengths of parts should be their grid length + 2 (for space in between)
-    private int[] lengthArray = new int[] {17, 12, 22, 18, 14, 22, 17};
+    private int[] lengthArray = new int[] {17, 12, 22, 18, 14, 22, 17, 18, 12, 23, 23, 22, 24};
 
-    private int arrayLength = 6;        // length of array above
+    private int arrayLength = 13;        // length of array above
     private int rIndex;                 // randomly generated index
     private int current_posX = 0;       // current generation position
 
@@ -93,6 +99,12 @@ public class LevelGenerator : MonoBehaviour
         allLevelParts.Add(levelPart_5);
         allLevelParts.Add(levelPart_6);
         allLevelParts.Add(levelPart_7);
+        allLevelParts.Add(levelPart_8);
+        allLevelParts.Add(levelPart_9);
+        allLevelParts.Add(levelPart_10);
+        allLevelParts.Add(levelPart_11);
+        allLevelParts.Add(levelPart_12);
+        allLevelParts.Add(levelPart_13);
 
         // this line is used to make sure the player doesn't fall on spawn
         SpawnLevelPart(allLevelParts[0]);
@@ -121,7 +133,7 @@ public class LevelGenerator : MonoBehaviour
         if (playerPos.x > current_posX - 50)
         {
             var random = new System.Random();
-            rIndex = (int)Math.Floor(random.NextDouble() * arrayLength);
+            rIndex = (int) Math.Floor(random.NextDouble() * arrayLength);
             SpawnLevelPart(allLevelParts[rIndex]);
         }
     }

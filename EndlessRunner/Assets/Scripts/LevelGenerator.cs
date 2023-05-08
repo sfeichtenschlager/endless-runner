@@ -83,7 +83,7 @@ public class LevelGenerator : MonoBehaviour
     // lengths of parts should be their grid length + 2 (for space in between)
     private int[] lengthArray = new int[] {17, 12, 22, 18, 14, 22, 17, 18, 12, 23, 23, 22, 24};
 
-    private int arrayLength = 13;        // length of array above
+    private int arrayLength = 13;       // length of array above
     private int rIndex;                 // randomly generated index
     private int current_posX = 0;       // current generation position
 

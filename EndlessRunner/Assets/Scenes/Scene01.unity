@@ -306,7 +306,7 @@ Transform:
   m_GameObject: {fileID: 29527204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.5244813, y: -0.3806523, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalScale: {x: 2.25, y: 2.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1583,6 +1583,8 @@ MonoBehaviour:
   levelPart_3: {fileID: 3070163250347831012, guid: a0a48d5c560f3c7409ae950748b0e4d8, type: 3}
   levelPart_4: {fileID: 1415734336109112640, guid: 2e7b9700fd66f3946b018256df1f95f2, type: 3}
   levelPart_5: {fileID: 158854770261293176, guid: abb70a6e2e3715543bd9b288982aac33, type: 3}
+  levelPart_6: {fileID: 3070163250347831012, guid: ee0e147768d08b8469b5376679048ff2, type: 3}
+  levelPart_7: {fileID: 1923959079020397093, guid: e9b3ca3159b9858478fe983d257cacf1, type: 3}
 --- !u!4 &1907123834
 Transform:
   m_ObjectHideFlags: 0

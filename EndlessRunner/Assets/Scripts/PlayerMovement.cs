@@ -27,12 +27,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if(rb.position.y <= -5) DestroyPlayer();
 
-        float richtung = Input.GetAxis("Horizontal");
-        transform.Translate(Vector2.right * speed * richtung * Time.deltaTime);
+        float direction = Input.GetAxis("Horizontal");
+        transform.Translate(Vector2.right * speed * direction * Time.deltaTime);
 
-        if(richtung > 0 && !facingRight) {
+        if(direction > 0 && !facingRight) {
             Flip();
-        } else if(richtung < 0 && facingRight) {
+        } else if(direction < 0 && facingRight) {
             Flip();
         }
 

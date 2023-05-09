@@ -32,7 +32,11 @@ public class ScoreDisplayer : MonoBehaviour
         }
 
         Vector3 laserPos = GameObject.FindGameObjectWithTag("laser").transform.position;
-        distanceText = Mathf.FloorToInt((float) ((playerPos.x - 2) - laserPos.x)).ToString();
+        int distanceCalc = Mathf.FloorToInt((float) ((playerPos.x - 2) - laserPos.x));
+
+        if(distanceCalc < 999) distanceText = distanceCalc.ToString();
+        else distanceText = "999";
+        
         distance.text = "< " + distanceText;
     }
 

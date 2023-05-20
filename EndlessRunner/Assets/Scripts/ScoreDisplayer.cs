@@ -11,6 +11,7 @@ public class ScoreDisplayer : MonoBehaviour
 
     public Text distance;
     private string distanceText;
+
     
     // Start is called before the first frame update
     void Start()
@@ -53,6 +54,10 @@ public class ScoreDisplayer : MonoBehaviour
         else PlayerPrefs.SetInt("Highscore", currentScore);
 
         PlayerPrefs.Save();
+    }
+    public int getScore()
+    {
+        return int.Parse(score.text);
     }
 
 }

@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -14,8 +15,13 @@ public class PlayerMovement : MonoBehaviour
     public bool facingRight = true;
     private bool isgrounded = false;
     private int deathHeight = -10;
+    private int score = 0;
+    public ScoreDisplayer scoreDisplayer; 
+
+    public GameOverScreen gameOverScreen;
 
     private Vector3 rot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             isgrounded = true;
         }
 
-        if (collision.gameObject.tag == "spike" || collision.gameObject.tag == "laser")
+        if (collision.gameObject.tag == "spike" || collision.gameObject.tag == "laser" || collision.gameObject.tag == "enemy")
         {
             DestroyPlayer();
         }
@@ -72,10 +78,16 @@ public class PlayerMovement : MonoBehaviour
 
     void DestroyPlayer() 
     {
-        Destroy(this);
-
+        Destroy(gameObject);
+        setScore();
         GameObject gameUi = GameObject.Find("GameUI");
         gameUi.GetComponent<ScoreDisplayer>().SaveHighscore();
+        gameOverScreen.Setup(score); 
+
+    }
+    public void setScore()
+    {
+        score = scoreDisplayer.getScore(); 
     }
 
 }

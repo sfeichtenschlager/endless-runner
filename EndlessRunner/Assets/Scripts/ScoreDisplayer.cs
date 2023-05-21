@@ -47,7 +47,6 @@ public class ScoreDisplayer : MonoBehaviour
         {
             if(PlayerPrefs.GetInt("Highscore") < currentScore) 
             {
-                Debug.Log("Saved, already exists");
                 PlayerPrefs.SetInt("Highscore", currentScore);
             }
         } 
@@ -55,9 +54,9 @@ public class ScoreDisplayer : MonoBehaviour
 
         PlayerPrefs.Save();
     }
+
     public int getScore()
     {
         return int.Parse(score.text);
     }
-
 }

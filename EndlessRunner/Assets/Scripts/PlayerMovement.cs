@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public ScoreDisplayer scoreDisplayer;
 
     private Vector3 validDirection = Vector3.up;
-    private float contactThreshold = 20; 
+    private float contactThreshold = 75; 
 
     public GameOverScreen gameOverScreen;
 

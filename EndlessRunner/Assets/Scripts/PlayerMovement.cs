@@ -16,7 +16,10 @@ public class PlayerMovement : MonoBehaviour
     private bool isgrounded = false;
     private int deathHeight = -10;
     private int score = 0;
-    public ScoreDisplayer scoreDisplayer; 
+    public ScoreDisplayer scoreDisplayer;
+
+    private Vector3 validDirection = Vector3.up;
+    private float contactThreshold = 20; 
 
     public GameOverScreen gameOverScreen;
 
@@ -59,7 +62,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "ground")
         {
-            isgrounded = true;
+            for (int k=0; k < collision.contacts.Length; k++)
+            {
+                if (Vector3.Angle(collision.contacts[k].normal, validDirection) <= contactThreshold)
+                {
+                    isgrounded = true;
+                    break; 
+                }
+            }
         }
 
         if (collision.gameObject.tag == "spike" || collision.gameObject.tag == "laser" || collision.gameObject.tag == "enemy")

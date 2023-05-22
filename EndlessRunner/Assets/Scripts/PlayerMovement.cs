@@ -71,6 +71,11 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
+        if(collision.gameObject.tag == "spring" && isgrounded == true)
+        {
+            rb.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
+            isgrounded = false;
+        }
 
         if (collision.gameObject.tag == "spike" || collision.gameObject.tag == "laser" || collision.gameObject.tag == "enemy")
         {

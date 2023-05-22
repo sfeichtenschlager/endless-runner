@@ -71,9 +71,9 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
-        if(collision.gameObject.tag == "spring" && isgrounded == true)
+        if(collision.gameObject.tag == "spring")
         {
-            rb.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
             isgrounded = false;
         }
 

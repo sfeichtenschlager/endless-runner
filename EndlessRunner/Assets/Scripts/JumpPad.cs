@@ -8,9 +8,9 @@ public class JumpPad : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.campareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.getComponent<Rigidbody2D>().AddForce(Vector.up * bounce, ForceMode2D.Impulse); 
+            // collision.gameObject.getComponent<Rigidbody2D>().AddForce(Vector.up * bounce, ForceMode2D.Impulse); 
         }
     }
 }

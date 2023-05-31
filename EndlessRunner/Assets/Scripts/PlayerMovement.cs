@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         if(collision.gameObject.tag == "spring")
         {
             rb.velocity = Vector3.zero;
-            rb.AddForce(Vector2.up * 30, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
             isgrounded = false;
         }
 

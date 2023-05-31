@@ -79,11 +79,15 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] private Transform levelPart_11;
     [SerializeField] private Transform levelPart_12;
     [SerializeField] private Transform levelPart_13;
+    [SerializeField] private Transform levelPart_14;
+    [SerializeField] private Transform levelPart_15;
+    [SerializeField] private Transform levelPart_16;
+    [SerializeField] private Transform levelPart_17;
 
     // lengths of parts should be their grid length + 2 (for space in between)
-    private int[] lengthArray = new int[] {17, 12, 22, 18, 14, 22, 17, 18, 12, 23, 23, 22, 24};
+    private int[] lengthArray = new int[] {17, 12, 22, 18, 14, 22, 17, 18, 12, 23, 23, 22, 24, 17, 17, 5, 23};
 
-    private int arrayLength = 13;       // length of array above
+    private int arrayLength = 17;       // length of array above
     private int rIndex;                 // randomly generated index
     private int current_posX = 0;       // current generation position
 
@@ -105,6 +109,10 @@ public class LevelGenerator : MonoBehaviour
         allLevelParts.Add(levelPart_11);
         allLevelParts.Add(levelPart_12);
         allLevelParts.Add(levelPart_13);
+        allLevelParts.Add(levelPart_14);
+        allLevelParts.Add(levelPart_15);
+        allLevelParts.Add(levelPart_16);
+        allLevelParts.Add(levelPart_17);
 
         // this line is used to make sure the player doesn't fall on spawn
         SpawnLevelPart(allLevelParts[0]);

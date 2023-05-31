@@ -717,6 +717,7 @@ GameObject:
   - component: {fileID: 2975321169675190001}
   - component: {fileID: 8383609557252570342}
   - component: {fileID: 3519891353019511171}
+  - component: {fileID: 7137244102954624679}
   m_Layer: 0
   m_Name: Finish
   m_TagString: spring
@@ -817,3 +818,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7137244102954624679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769705099430743562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a2d738412a9f449b7b03613769b8a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
